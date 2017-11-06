@@ -1,0 +1,61 @@
+PYTHON TURTLE DESIGN PROJECT
+
+
+Sara Margolin
+Oct 23 (Edited Nov 2)
+Add class comment
+Your work
+DONE
+
+Kelly Fang - Copy of Turtle Design Project
+Google Docs
+
+design projectt.py
+Text
+
+project.PNG
+Image
+UNSUBMIT
+
+Add private comment…
+
+import turtle
+bob=turtle.Turtle()
+
+colors = ("violet", "light pink", "deep pink", "hot pink")
+numColors = len(colors)
+
+turtle.bgcolor("black")
+bob = turtle.Pen()
+bob.speed(0)
+
+
+
+for times in range(400):
+  bob.pencolor(colors[times % numColors])
+  bob.forward(times)
+  bob.left(100)
+
+
+
+bob.penup()
+bob.goto(300,-300)
+bob.pendown()
+bob.speed(0)
+
+
+for times in range(100):
+  bob.circle(16)
+  bob.left(6)
+bob.color("purple")
+for times in range(100):
+  bob.circle(59)
+  bob.left(12)
+bob.color("light blue")
+for times in range(20):
+  bob.circle(60)
+  bob.right(23)
+
+
+
+turtle.done(
